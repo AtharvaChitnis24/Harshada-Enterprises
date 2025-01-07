@@ -223,3 +223,10 @@ footer {
     color: var(--customPrimary) !important;
     font-weight: 600 !important;
 }
+.bg-blackish{
+    
+    background-color:#282e3a !important;
+    }
+    .bg-blackish-dark{
+        background-color:#1e2430 !important;
+    }
