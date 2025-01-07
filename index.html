@@ -120,7 +120,7 @@
                         <div class="icon-wrapper   bg-soft-success">
 
                             <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
-                            class="text-success">
+                            class="text-custom">
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                         </svg>
                     </div>
@@ -219,7 +219,7 @@
     </div>
 </div>
 <!-- Services -->
-<section class="py-5" id="scrollspyHeading4">
+<section class="py-5" id="ourservices">
     <div class="container">
      <h2 class="section-title text-center">Our Services</h2> 
      <div class="row mb-5 g-4">
@@ -383,7 +383,8 @@
                 </div>  
                 <div class="text ms-3">
                     <h5>Call Us</h5>
-                            <p class="text-muted">8888810118&nbsp;&nbsp;9373893036&nbsp;&nbsp;9552667943</p>    
+                    <p class="text-muted">8888810118&nbsp;&nbsp;9373893036&nbsp;&nbsp;9552667943</p>    
+                  
                 </div>  
             </div>
 
@@ -409,18 +410,59 @@
 </div>
 </section>
 <!-- Footer  -->
-<footer class="border-top">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <p class="text-center text-capitalize fw-bold text-muted mb-0">&copy;all rights reserved by Harshada Enterprise private limited <span id="year"></span></p>
-
-                </div>
-            </div>
+<footer>
+    <section class="bg-blackish text-white">  
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-lg-4">
+    <h5 class="fw-bold"><span class="bg-custom text-custom" id="aboutus">|</span>&nbsp;&nbsp;&nbsp;ABOUT US</h5>
+           <p class="py-4" style="color: #aaafb8 I !important;">
+            At Harshda Enterprises, we believe in the power of experience and efficiency. With years of expertise and a vast network of trusted suppliers, our dedicated team ensures that we can locate and deliver any industrial product at lightning speed. Whether you are looking for raw materials, machinery, or specialized tools, we’ve got you covered with the highest quality and reliability.
+    </p> 
+          </div>
+          <div class="col-lg-4">
+    <h5 class="fw-bold"><span class="bg-custom text-custom">|</span>&nbsp;&nbsp;&nbsp;QUICK LINKS</h5>   
+    <ul class="py-4">
+      <li><a href="Index.html" class="text-decoration-none" style="color: #aaafb8 !important;">Home</a></li>
+      <li class="py-1"><a href="aboutus.html" class="text-decoration-none" style="color: #aaafb8 !important;">About Us</a></li>
+      <li class="py-1"><a href="Index.html#scrollspyHeading3" class="text-decoration-none" style="color: #aaafb8 !important;">Our Goals</a></li>
+      <li class="py-1"><a href="Index.html#scrollspyHeading4" class="text-decoration-none" style="color: #aaafb8 !important;">Our Team</a></li>
+      <li class="py-1"><a href="Bussiness.html" class="text-decoration-none" style="color: #aaafb8 !important;">Our Bussiness</a></li>
+      <li class="py-1"><a href="contact.html" class="text-decoration-none" style="color: #aaafb8 !important;">Contact</a></li>                
+    </ul>
+          </div>
+          <div class="col-lg-4">
+       <h5 class="fw-bold"><span class="bg-custom text-custom">|</span>&nbsp;&nbsp;&nbsp;CONTACTS</h5> 
+            <p class="py-3">
+            CORPORATE OFFICE<br/>
+            <a href="#" class="text-decoration-none pe-none"  style="color: #aaafb8 !important;">
+                Office No S1516, Paresh Indrstrial Complexs Shankar Seth Roedt, Near kumar Feclite Mall, Pune·411037
+            </a>   
+          </p>
+    <p class="">EMAIL<br/>
+            <a href="#" class="text-decoration-none pe-none"  style="color: #aaafb8 !important;">
+                harshadaenterprise02@gmail.com
+            </a>            
+    </p>
+       
+          </div> 
+                 
         </div>
-    </div>
-</footer>
+      </div>
+
+    </section>  
+    <section class="bg-blackish-dark" style="height: 60px !important;">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-12">
+                  <p class="text-capitalize fw-bold mb-0 mt-2" style="color: #aaafb8 !important;">&copy;all rights reserved by Harshada Enterprise private limited <span id="year"></span></p>
+      
+              </div>
+      
+            </div> 
+          </div> 
+    </section>
+    </footer>
 <a id="backtotop" href="#" class="btn btn-custom rounded back-to-top" style="display:none;">
     <i class="bi bi-chevron-up"></i>
 </a>
@@ -464,6 +506,8 @@
                 Scrollbutton.style.display = "none";
             }
         });
+
+        document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
 </body>
 </html>
